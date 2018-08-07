@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Summit Code">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Summit Code</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="layout">
+            <div class="wrapper">
+                <header>
+                    <h1 class="layout-title">Summit Code</h1>
+                    <nav class="layout-nav" style="cursor: pointer;">
+                        <ol class="layout-navList">
+                            <li>
+                                <a onclick="home();">Home</a>
+                            </li>
+                            <li>
+                                <a onclick="projects();">Projects</a>
+                            </li>
+                            <li>
+                                <a onclick="about();">About</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </header>
+                <div id="home">
+                    <div class="center">
+                        <img src="assets/img/summitcodeicon.png" height="50%" width="60%">
+                        <h3>Home of Summit Code</h3>
+                    </div>
+                </div>
+                <div id="projects" style="display: none;">
+                    <div class="center">
+                            <p style="font-size:25px">Games</p>
+                            <iframe style="margin-bottom: 3%" frameborder="0" src="https://itch.io/embed/278057?linkback=true&amp;border_width=2&amp;bg_color=929292&amp;fg_color=000000&amp;link_color=c61c1c&amp;border_color=000000" width="554" height="169"></iframe>
+                            <p style="font-size:25px">Programs</p>
+                            <h3><a href="https://github.com/SummitCode/pyball" target="_blank">PYBALL</a></h3>
+                            <p>A python library to get baseball stats/data</p>
+                    </div>
+                </div>
+                <div id="about" style="display: none;">
+                    <div class="center">
+                        <p style="margin-bottom: 3%">Summit Code is a development group that makes games and programs.</p>
+
+                        <a href="https://github.com/SummitCode" target="_blank"><i class="fab fa-github fa-4x" style="margin-right: 2%;"></i>
+                        <a href="https://summit-code.itch.io/" target="_blank"><i class="fas fa-gamepad fa-4x" style="margin-right: 2%;"></i></a>
+                        <a href="https://twitter.com/SummitCode" target="_blank"><i class="fab fa-twitter fa-4x" style="margin-right: 2%;"></i></a>
+                        <a href="https://www.youtube.com/channel/UCTbB5C9qmHO484Ra5X_-K6w" target="_blank"><i class="fab fa-youtube fa-4x" style="margin-right: 2%;"></i></a>
+                        <a href="https://www.reddit.com/r/SummitCode/"><i class="fab fa-reddit-alien fa-4x" style="margin-right: 2%;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
